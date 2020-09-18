@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarTogglerDemo01"
@@ -17,46 +17,49 @@ const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <Link to="/" className="navbar-brand">
             <img src={logo} alt="logo" className="logo" />
           </Link>
 
-          <form class="form-inline mr-auto mt-2 mt-lg-0 ">
+          <form className="form-inline mr-auto mt-2 mt-lg-0 ">
             <input
-              class="form-control mr-sm-2"
+              className="form-control mr-sm-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <button
+              className="btn btn-outline-success my-2 my-sm-0"
+              type="submit"
+            >
               Search
             </button>
           </form>
-          <ul class="navbar-nav my-2 my-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                News <span class="sr-only">(current)</span>
+          <ul className="navbar-nav my-2 my-lg-0">
+            <li className="nav-item active">
+              <a className="nav-link" href="#">
+                News <span className="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Destination
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Blog
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Contact
               </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link to="/login">
                 <button className="btn-color nav-btn">Login</button>
               </Link>

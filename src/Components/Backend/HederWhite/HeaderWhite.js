@@ -4,12 +4,13 @@ import "./whiteheader.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { UserContext } from "../../../App";
+import { Navbar } from "react-bootstrap";
 
 const HeaderWhite = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   return (
     <div className="white-header container">
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <Navbar className="navbar navbar-expand-lg navbar-light">
         <button
           className="navbar-toggler"
           type="button"
@@ -76,7 +77,7 @@ const HeaderWhite = () => {
             )}
           </ul>
         </div>
-      </nav>
+      </Navbar>
     </div>
   );
 };
