@@ -1,0 +1,41 @@
+.room-card {
+  color: rgba(0, 0, 0, 0.9);
+  padding: 15px 0;
+}
+
+.product-card-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image {
+  max-height: 190px;
+  max-width: 270px;
+}
+
+.card-img {
+  width: 100%;
+  padding-right: 15px;
+}
+
+.card-info .title {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.card-capacity-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.card-capacity-flex p {
+  padding-right: 6px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.card-pricing-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.card-rating-star {
+  width: 25px;
+}

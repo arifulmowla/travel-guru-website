@@ -1,0 +1,51 @@
+.booking {
+  background-image: url("https://i.ibb.co/19zrDXf/Rectangle-1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.background-img {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card-flex .left h3 {
+  font-family: Bebas Neue;
+  font-size: 90px;
+}
+
+.booking-cards {
+  padding-top: 60px;
+}
+
+.booking-cards .left {
+  padding: 100px 0;
+}
+.booking h3 {
+  font-family: Bebas Neue;
+  font-size: 80px;
+  overflow: hidden;
+}
+.booking-card {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px 20px;
+  color: gray;
+  border-radius: 12px;
+}
+
+.btn-full {
+  width: 100%;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.booking-card .form-control {
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.form-group {
+  padding: 0 5px;
+}

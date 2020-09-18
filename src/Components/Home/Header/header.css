@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  height: 50px;
+}
+
+.btn-color {
+  background-color: #f9a51a;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.nav-btn {
+  margin: 5px 15px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+* {
+  overflow-x: hidden;
+}

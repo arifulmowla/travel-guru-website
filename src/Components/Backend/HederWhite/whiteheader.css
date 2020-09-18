@@ -1,0 +1,8 @@
+.white-header body {
+  background-image: none;
+  color: black;
+}
+
+.white-header .nav-link {
+  color: rgba(0, 0, 0, 0.9) !important;
+}

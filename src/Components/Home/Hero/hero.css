@@ -1,0 +1,27 @@
+.hero {
+  padding-top: 60px;
+}
+.card-flex {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+}
+
+.card-flex .left {
+  padding: 100px 0;
+  width: 50%;
+}
+
+.card-flex .left h3 {
+  font-family: Bebas Neue;
+  font-size: 80px;
+  overflow: hidden;
+}
+
+.card-flex .right {
+  height: 450px;
+}
+.card-flex .right img {
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+.home {
+  background-image: url("https://i.ibb.co/19zrDXf/Rectangle-1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.background-img {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
